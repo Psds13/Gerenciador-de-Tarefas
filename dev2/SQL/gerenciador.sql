@@ -43,15 +43,16 @@ CREATE TABLE `tarefas` (
 
 INSERT INTO `tarefas` (`id`, `id_usuario`, `descricao`, `prioridade`, `status`, `created_at`, `titulo`) VALUES
 (1, 1, 'Comer biscoito é muito bom, mas modere', 'Baixa', 'concluida', '2023-12-06 20:09:53', 'Comer Biscoito'),
-(6, 4, 'É necessário para saber dos detalhes da vida', 'Média', 'concluida', '2023-12-06 23:32:15', 'Entrar em contato'),
-(7, 1, 'É MELHOR NÃO DESISTIR', 'Alta', 'pendente', '2023-12-06 23:45:13', 'Ih atrás'),
-(10, 1, 'Sei lá meu amigo', 'Baixa', 'concluida', '2023-12-07 00:14:48', 'Sei la'),
-(11, 1, 'É necessário estudar muito pra conseguir subir na vida', 'Alta', 'pendente', '2023-12-07 12:47:56', 'Estudar'),
-(12, 1, 'Andar de Bicicleta faz bem pra saúde', 'Alta', 'concluida', '2023-12-07 20:20:39', 'Andar de Bicicleta'),
-(13, 5, 'É muito bom pra saúde', 'Média', 'concluida', '2023-12-07 20:23:34', 'Andar de Bicicleta'),
-(14, 5, 'Coma bem pouquinho pfv', 'Alta', 'pendente', '2023-12-07 20:24:05', 'Deixa ir'),
-(15, 7, 'É bom passear e andar mais para perder peso, além de fazer bem pra saúde', 'Alta', 'pendente', '2023-12-07 23:20:05', 'Fazer caminhada'),
-(18, 7, 'É legal comer pastel, mas modere por favor', 'Alta', 'concluida', '2023-12-08 12:35:57', 'Deve ser');
+(2, 2, 'É necessário para saber dos detalhes da vida', 'Média', 'concluida', '2023-12-06 23:32:15', 'Entrar em contato'),
+(3, 1, 'É MELHOR NÃO DESISTIR', 'Alta', 'pendente', '2023-12-06 23:45:13', 'Ih atrás'),
+(4, 1, 'Sei lá meu amigo', 'Baixa', 'concluida', '2023-12-07 00:14:48', 'Sei la'),
+(5, 1, 'É necessário estudar muito pra conseguir subir na vida', 'Alta', 'pendente', '2023-12-07 12:47:56', 'Estudar'),
+(6, 1, 'Andar de Bicicleta faz bem pra saúde', 'Alta', 'concluida', '2023-12-07 20:20:39', 'Andar de Bicicleta'),
+(7, 3, 'É muito bom pra saúde', 'Média', 'concluida', '2023-12-07 20:23:34', 'Andar de Bicicleta'),
+(8, 4, 'Coma bem pouquinho pfv', 'Alta', 'pendente', '2023-12-07 20:24:05', 'Deixa ir'),
+(9, 5, 'É bom passear e andar mais para perder peso, além de fazer bem pra saúde', 'Alta', 'pendente', '2023-12-07 23:20:05', 'Fazer caminhada'),
+(10, 6, 'É legal comer pastel, mas modere por favor', 'Alta', 'concluida', '2023-12-08 12:35:57', 'Deve ser');
+
 
 -- --------------------------------------------------------
 
@@ -72,11 +73,11 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`id`, `login1`, `senha`, `nome`) VALUES
 (1, 'edseg', '$2y$10$hUmqjRI4Dz5.PIsZ8fN6K.FJbjEZJqPjJlq3FeWJiQ9ZyWLoLQygG', 'Edmilson'),
-(4, 'iris15', '$2y$10$1iVMvownq40Wi/t97kIw2.7D6YpzVhq.vttjgRN/nwz7hr.w3/5E.', 'Iris'),
-(5, 'and123', '$2y$10$u1mg6H6PzLze2V515Q18t.JkP1yxyFsE.8fwJ766B.t2JWnLe4gJe', 'Andersson'),
-(6, 'rod123', '$2y$10$v7Ey1REPoHcntzl1sr3mpu4h3DaOQCRBO.qAdxTALo87v9Zhle7TK', 'Rogerio'),
-(7, 'will12', '$2y$10$m1/8Sya5QZ0wW9orgUl33O1u7So4/9CI2Rz94TUQVrrD21iH8G1o.', 'Willian'),
-(8, 'real124', '$2y$10$LEM32/6pya0kuqA3LNJoueZhAOelCErV7S5a./ocICIhqYUdzMWL.', 'Reali');
+(2, 'iris15', '$2y$10$1iVMvownq40Wi/t97kIw2.7D6YpzVhq.vttjgRN/nwz7hr.w3/5E.', 'Iris'),
+(3, 'and123', '$2y$10$u1mg6H6PzLze2V515Q18t.JkP1yxyFsE.8fwJ766B.t2JWnLe4gJe', 'Andersson'),
+(4, 'rod123', '$2y$10$v7Ey1REPoHcntzl1sr3mpu4h3DaOQCRBO.qAdxTALo87v9Zhle7TK', 'Rogerio'),
+(5, 'will12', '$2y$10$m1/8Sya5QZ0wW9orgUl33O1u7So4/9CI2Rz94TUQVrrD21iH8G1o.', 'Willian'),
+(6, 'real124', '$2y$10$LEM32/6pya0kuqA3LNJoueZhAOelCErV7S5a./ocICIhqYUdzMWL.', 'Reali');
 
 --
 -- Índices para tabelas despejadas
